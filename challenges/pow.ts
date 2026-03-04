@@ -10,8 +10,19 @@
  */
 
 function pow(base: number, power: number): number {
-  return 0; // Placeholder return value for type safety - replace for your solution
+  let newBase = 1;
+  if (power === 0) {
+    base = 1;
+    return base;
+  } else for (let i = 1; i <= power; i++) {
+    newBase *= base;
+  }
+  return newBase; // Placeholder return value for type safety - replace for your solution
 }
+
+console.log(pow(2,0));
+console.log(pow(2,1));
+console.log(pow(2,4));
 
 /**
  * Extension: Use recursion.
