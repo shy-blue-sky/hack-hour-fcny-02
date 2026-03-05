@@ -77,3 +77,5 @@ const fizzbuzzbazz = (num: number): (number | string)[] => {
 console.log(fizzbuzzbazz(25));
 
 export { fizzbuzz, fizzbuzzbazz };
+
+// Leetcode Fizz buzz equivalent: https://leetcode.com/problems/fizz-buzz/description/

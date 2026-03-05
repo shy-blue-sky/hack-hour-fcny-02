@@ -6,8 +6,26 @@
  */
 
 export const duplicateNumber = (array: number[]): number => {
+  for (let i = 0; i < array.length; i++) {
+    let numToCompare = array[i]
+    console.log("numToCompare value:", numToCompare)
+    for (let j = i+1; j < array.length; j++) {
+      console.log("array[j]", array[j])
+      if (numToCompare === array[j]) {
+        console.log("numToCompare equals array[j]!")
+        return numToCompare
+      }
+    }
+  }
   return 0;
 };
+
+const arr1 = [1,5,4,3,6,2,4,7];
+console.log(duplicateNumber(arr1));
+
+// const arr2 = [1,5,4];
+// console.log(duplicateNumber(arr2));
+
 
 /*
  * Extension:
@@ -21,3 +39,5 @@ export const duplicateNumber = (array: number[]): number => {
 export const duplicateNumberAdvanced = (array: number[]): number => {
   return 0;
 };
+
+// For todays hack hour problem this is the leetcode question equivalent: https://leetcode.com/problems/find-the-duplicate-number

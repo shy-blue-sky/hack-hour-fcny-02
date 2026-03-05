@@ -33,3 +33,6 @@ function powRecurse(base: number, power: number): number {
 }
 
 export { pow, powRecurse };
+
+
+// Pow Equivalent on Leetcode: https://leetcode.com/problems/powx-n/description/
