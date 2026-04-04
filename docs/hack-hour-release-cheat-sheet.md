@@ -1,3 +1,4 @@
+<!-- markdownlint-disable RuleID MD033 -->
 # Hack Hour Release Cheat Sheet
 
 ## Purpose
@@ -40,7 +41,6 @@ git remote add masterrepo https://github.com/CodesmithLLC/hack-hour-ts.git
 git fetch masterrepo
 ```
 
-
 ---
 
 ```md
@@ -56,6 +56,7 @@ git remote -v
 Expected remotes:
 
 origin → Class repo
+
 masterrepo → Master repo
 
 Repo URLs:
@@ -92,7 +93,6 @@ git pull origin main
 
 Example:
 >./scripts/release-week.sh **<u>39 stack-queue balanced-parens >linked-list-remove reverse-linked-list kth-to-last-node</u>**
-
 
 ---
 
@@ -251,7 +251,6 @@ Then:
 - review
 - merge
 - delete branch
-
 
 ---
 
