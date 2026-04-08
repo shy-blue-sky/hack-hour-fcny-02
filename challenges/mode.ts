@@ -12,6 +12,8 @@ mode([7, 5, 8, 8, 2, 5]) -> 8
 */
 
 const mode = (array: number[]): number => {
+
+  if 
   return 0;
 };
 
